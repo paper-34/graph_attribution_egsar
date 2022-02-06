@@ -3,6 +3,14 @@ This repository is the implementation of our EGSAR to the previous graph-attribu
 
 conda create -f environment.yml
 
+## A notebook to train and evaluate egsar and other explanation techniques
+notebooks/train_attribute_and_evaluate_egsar.ipynb
+
+## A notebook to plot and evaluation results (figure2)
+notebooks/plot_and_evaluate_results_egsar.ipynb
+
+
+# Reference 
 # Codebase for [_Evaluating Attribution for Graph Neural Networks_](https://papers.nips.cc/paper/2020/hash/417fbbf2e9d5a28a855a11894b2e795a-Abstract.html).
 
 ![Schematic figure](media/TOC.png)
