@@ -1,0 +1,26 @@
+name: graph_attribution_egsar
+channels:
+- rdkit
+- conda-forge
+dependencies:
+- pip
+- rdkit
+- numpy
+- ipython
+- jupyter
+- matplotlib
+- numpy
+- pandas
+- scipy
+- seaborn
+- tqdm
+- scikit-learn
+- networkx
+- pip:
+        - tensorflow
+        - dm-sonnet
+        - graph_nets
+        - more-itertools
+        - ml_collections
+        - POT
+        - joblib
